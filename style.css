@@ -32,8 +32,8 @@ body {
   /* padding: 0 10px; */
   padding: 29px 10px;
   text-decoration: none;
-  color: #8c8c8c;
-  font-weight: 500;
+  color: #000000;
+  font-weight: 600;
 }
 
 .nav a:hover {
@@ -58,7 +58,7 @@ body {
 
 .hero {
   background: url(images/pexels-piotr-arnoldes-7862031-6794153.jpg) center /
-    cover no-repeat;
+    cover no-repeat fixed;
   min-height: 85vh;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,6 @@ body {
   padding-top: 76px;
   text-align: center;
   color: white;
-  background-color: #222;
 }
 
 .hero h1 {
