@@ -15,8 +15,10 @@ body {
   width: 100%;
   box-shadow: #000 0px 0px 10px;
   padding: 20px 70px;
-  background: #fff;
-  border-bottom: 1px solid #eee;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  /* border-bottom: 1px solid #eee; */
   z-index: 1000;
 }
 
@@ -57,7 +59,7 @@ body {
 .hero {
   background: url(images/pexels-piotr-arnoldes-7862031-6794153.jpg) center /
     cover no-repeat;
-  min-height: 80vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
