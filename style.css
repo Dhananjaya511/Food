@@ -60,7 +60,6 @@ body {
   background: url(images/pexels-piotr-arnoldes-7862031-6794153.jpg) center /
     cover no-repeat fixed;
   min-height: 85vh;
-  overlay: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
